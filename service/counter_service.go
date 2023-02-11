@@ -27,7 +27,7 @@ func IndexHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, "内部错误")
 		return
 	}
-	fmt.Fprint(w, "data")
+	fmt.Fprint(w, "data233")
 }
 
 // CounterHandler 计数器接口
